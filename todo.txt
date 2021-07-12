@@ -1,0 +1,11 @@
+onConnect:
+
+we have hardcoded yDoc name:
+
+setupServerConnection(channel, { docName: 'count-demo' });
+
+before it was part of the url when connecting websocket...
+
+perhaps use "sublane" or something like this... 
+sublane would be mapped to integers... and then each binary message could have three-digit padded index number of sublane so that
+multiple documents can get synced over the same wire
