@@ -1,5 +1,5 @@
-import dmt from 'dmt/common';
-const { log } = dmt;
+
+import { log } from 'dmt/common';
 
 /*
 Unlike stated in the LICENSE file, it is not necessary to include the copyright notice and permission notice when you copy code from this file.

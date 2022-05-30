@@ -82,8 +82,8 @@ They seem to work well and possibility of applications is almost infinite.
    Please edit your initial `~/.dmt/user/engine/index.js` which currently looks like this:
 
    ```js
-   import dmt from 'dmt/common';
-   const { log } = dmt;
+
+   import { log } from 'dmt/common';
    
    function init(program) {
      log.green(`DMT USER ENGINE on ${program.device.id} loaded!`);
@@ -95,10 +95,10 @@ They seem to work well and possibility of applications is almost infinite.
    update it by adding two lines:
 
    ```js
-   import dmt from 'dmt/common';
+
    import initCrdt from './initCrdt';
    
-   const { log } = dmt;
+   import { log } from 'dmt/common';
    
    function init(program) {
      initCrdt(program);

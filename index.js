@@ -1,9 +1,7 @@
-import dmt from 'dmt/common';
-
 import initSyncServer from './syncServer/syncServer';
 import _initCrdtClient from './crdtClient/crdtClient';
 
-const { log } = dmt;
+import { log } from 'dmt/common';
 
 const protocol = 'dmt/crdt';
 
