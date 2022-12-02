@@ -2,12 +2,12 @@ import * as Y from 'yjs';
 
 import { encoding, decoding, mutex, map } from 'lib0';
 
-import * as awarenessProtocol from '../y-protocols/awareness';
-import * as syncProtocol from '../y-protocols/sync';
+import * as awarenessProtocol from '../y-protocols/awareness.js';
+import * as syncProtocol from '../y-protocols/sync.js';
 
-//import debounce from './debounce';
+//import debounce from './debounce.js';
 
-//import { callbackHandler, isCallbackSet } from './callback';
+//import { callbackHandler, isCallbackSet } from './callback.js';
 
 //const CALLBACK_DEBOUNCE_WAIT = parseInt(process.env.CALLBACK_DEBOUNCE_WAIT) || 2000;
 //const CALLBACK_DEBOUNCE_MAXWAIT = parseInt(process.env.CALLBACK_DEBOUNCE_MAXWAIT) || 10000;

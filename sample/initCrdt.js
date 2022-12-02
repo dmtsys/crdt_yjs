@@ -1,4 +1,4 @@
-import { initCrdtClient, initCrdtServer } from './crdt_yjs';
+import { initCrdtClient, initCrdtServer } from './crdt_yjs.js';
 
 export default function initCrdt(program) {
   // server device

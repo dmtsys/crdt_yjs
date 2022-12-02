@@ -1,10 +1,9 @@
-
 import { log } from 'dmt/common';
 
 import { connect } from 'dmt/connectome';
 
 import * as Y from 'yjs';
-import { ConnectomeProvider } from '../y-connector/y-connector';
+import { ConnectomeProvider } from '../y-connector/y-connector.js';
 
 export default function initCrdtClient({ protocol, host }) {
   const port = 7780; // ⚠️ magic constant!! move somewhere in dmtHelper

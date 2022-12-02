@@ -23,9 +23,9 @@ import { Observable } from 'lib0/observable';
 // import * as math from 'lib0/math';
 // import * as url from 'lib0/url';
 
-import * as syncProtocol from '../y-protocols/sync';
-import * as authProtocol from '../y-protocols/auth';
-import * as awarenessProtocol from '../y-protocols/awareness';
+import * as syncProtocol from '../y-protocols/sync.js';
+import * as authProtocol from '../y-protocols/auth.js';
+import * as awarenessProtocol from '../y-protocols/awareness.js';
 
 const messageSync = 0;
 const messageQueryAwareness = 3;
